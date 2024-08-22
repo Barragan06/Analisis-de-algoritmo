@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package numero_perfecto;
 
 
@@ -27,25 +24,26 @@ public class Numero_Perfecto {
 
     public static void main(String[] args) {
 
-        int numero = 777;
+        int numero = 60;
+        
         long startTime = System.nanoTime();
 
         if (numero <= 0) {
 
-            System.out.println("Ingres un valor valido");
+            System.out.println(" Ingres un valor valido ");
 
         }
 
         if (esPerfecto(numero)) {
 
-            System.out.println("Es un numero perfec mi sog" + numero);
+            System.out.println(" Es un numero perfec mi sog " + numero);
 
         } else {
-            System.out.println("Lo siento mi sog no es perfect");
+            System.out.println(" Lo siento mi sog no es perfect ");
         }
         long endTime = System.nanoTime();
         long duration = endTime - startTime;
-        System.out.println("Tiempo de ejecución: " + duration + " nanosegundos");
+        System.out.println("Tiempo de ejecución: " + duration + " nanosegundos ");
     }
 
 }
