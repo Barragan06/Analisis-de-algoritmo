@@ -24,7 +24,7 @@ public class Numero_Perfecto {
 
     public static void main(String[] args) {
 
-        int numero = 60;
+        int numero = 6;
         
         long startTime = System.nanoTime();
 
@@ -43,7 +43,7 @@ public class Numero_Perfecto {
         }
         long endTime = System.nanoTime();
         long duration = endTime - startTime;
-        System.out.println("Tiempo de ejecución: " + duration + " nanosegundos ");
+        System.out.println("Tiempo de ejecucion: " + duration + " nanosegundos ");
     }
 
 }
